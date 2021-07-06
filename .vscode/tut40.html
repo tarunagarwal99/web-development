@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css grid tutorial</title>
+    <style>
+        .container {
+            display: grid;
+            /* grid-template-columns: 100px 100px 100px; */
+            /* this is use as we have how many column we want*/
+            grid-template-columns: repeat (3, auto);
+            grid-gap: 2rem;
+        }
+        
+        .item {
+            height: 100px;
+            width: 100px;
+            background: blueviolet;
+            border: 2px solid black;
+            padding: 15px 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">this is the item-1</div>
+        <div class="item">this is the item-2</div>
+        <div class="item">this is the item-3</div>
+        <div class="item">this is the item-4</div>
+        <div class="item">this is the item-5</div>
+        <div class="item">this is the item-6</div>
+        <div class="item">this is the item-7</div>
+        <div class="item">this is the item-8</div>
+        <div class="item">this is the item-9</div>
+    </div>
+</body>
+
+</html>

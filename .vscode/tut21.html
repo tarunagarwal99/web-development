@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alignment</title>
+    <style>
+        .item {
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: beige;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .container {
+            border: 3px solid peru;
+            width: 900px;
+            margin: 33px auto;
+        }
+        
+        body {
+            font-family: 'ubuntu', sans-serif;
+        }
+        
+        #firstclass {
+            float: left;
+            width: 50%
+        }
+        
+        #secondclass {
+            float: right;
+            width: 50%;
+        }
+        
+        #thirdclass {
+            clear: both;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="firstclass" class="item">
+            <h3>First paragraph</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tenetur iste similique, error ut voluptates eaque? Corporis, fugiat consequuntur. Ab voluptates alias quidem, assumenda deleniti libero commodi fugit accusamus doloremque ea dicta voluptatibus
+                tempore.
+            </p>
+        </div>
+
+        <div id="secondclass" class="item">
+            <h3>Second paragraph</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tenetur iste similique, error ut voluptates eaque? Corporis, fugiat consequuntur. Ab voluptates alias quidem, assumenda deleniti libero commodi fugit accusamus doloremque ea dicta voluptatibus
+                tempore.
+            </p>
+        </div>
+        <div id="thirdclass" class="item">
+            <h3>Third paragraph</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tenetur iste similique, error ut voluptates eaque? Corporis, fugiat consequuntur. Ab voluptates alias quidem, assumenda deleniti libero commodi fugit accusamus doloremque ea dicta voluptatibus
+                tempore.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
